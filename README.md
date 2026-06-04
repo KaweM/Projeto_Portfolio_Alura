@@ -12,7 +12,7 @@ Projeto desenvolvido durante os estudos de HTML e CSS na Alura.
 
 ## 🖥️ Preview
 
-![preview](./img/preview.png)
+![preview](./assets/preview.png)
 
 ---
 
