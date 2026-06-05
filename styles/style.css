@@ -16,6 +16,9 @@
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   background-color: var(--cor--principal);
   color: var(--cor--secundaria);
@@ -44,11 +47,11 @@ body {
   align-items: center;
   justify-content: center;
   gap: 82px;
+  flex: 1;
 }
 
 .apresentacao__conteudo {
   width: 50%;
-  height: 482px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -104,6 +107,8 @@ body {
 
 .apresentacao__imagem {
   width: 50%;
+  max-width: 500px;
+  height: auto;
 }
 
 .rodape {
@@ -114,7 +119,24 @@ body {
   text-align: center;
   color: var(--cor--principal);
   background-color: var(--cor--terciaria);
-  position: fixed;
-  bottom: 0;
   width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .cabecalho {
+    padding: 10%;
+  }
+  .cabecalho__menu {
+    justify-content: center;
+  }
+  .apresentacao {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+  .apresentacao__conteudo {
+    width: auto;
+  }
+  .apresentacao__imagem {
+    width: 80%;
+  }
 }
