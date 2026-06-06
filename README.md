@@ -1,21 +1,21 @@
 # Projeto Portfólio
 
-Projeto desenvolvido durante os estudos de HTML e CSS na Alura.
+Página de portfólio desenvolvida durante os estudos de HTML e CSS na Alura, com foco em responsividade, semântica e boas práticas de desenvolvimento web.
 
----
+## 🔗 Links
 
-## 🌐 Acesse o projeto
+- Deploy: https://projeto-portfolio-ashen-zeta.vercel.app
+- Repositório: https://github.com/KaweM/Projeto_Portfolio_Alura
 
-(https://kawem.github.io/Projeto_Portfolio_Alura/)
+## 🚀 Tecnologias
 
----
+- HTML5
+- CSS3
+- Flexbox
+- Git
+- GitHub
+- Vercel
 
-## 🖥️ Preview
+## 📷 Preview
 
-![preview](./assets/preview.png)
-
----
-
-## Objetivo
-
-Praticar conceitos de estruturação, estilização e posicionamento de elementos utilizando HTML e CSS.
+![Preview do projeto](./assets/preview.png)
